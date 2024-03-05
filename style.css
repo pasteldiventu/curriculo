@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+* {
+    margin: 0;
+     padding: 0;
+    }
+
+    
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: #011246;
+    color: #FE9B67;
+
+}
+
+.cabecalho {
+    padding: 1% 0 0 7%;
+
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+
+}
+
+.menu__links{
+    font-family: "Montserrat", 'sans-serif';
+    font-size: 24px;
+    font-weight: 600;
+    color: #FE9B67;
+    text-decoration: none;
+}
+
+
+
+
+
+p {
+
+    color: #FE9B67;
+
+}
+
+.tec {
+    color: #CD0232;
+    border: 1px solid #CD0232;
+    padding: 2px;
+}
+
+.titulodestaque {
+        color: #CD0232;
+        font-weight: 200;
+
+}
+
+.presente { 
+        margin: 5% 7%;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+}
+
+.presente__conteudo {
+            width: 615px;
+            display: flex; 
+            flex-direction: column;
+            gap: 20px ;
+
+}
+.presente__conteudo__titulo { font-size: 33px;
+         font-family: 'Krona One', sans-serif;
+         font-weight: 200;
+                             }
+
+.texto { font-size: 19px; 
+    font-family: "Montserrat", 'sans-serif';}
+
+.linksubtitulo {
+    font-family: 'krona One', 'sans-serif';
+    font-weight: 400;
+    font-size: 24px;
+    }
+
+
+
+.links {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.linkbotao{
+    /* background-color: #22d4fd; */
+    display:flex;
+    justify-content: center;
+    gap: 12px;
+    width: 280px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 22px 0;
+    text-decoration: none;
+    color: #CD0232;
+    font-family: "Montserrat", sans-serif;
+    border:2px dashed #CD0232 ;
+}
+.linkbotao:hover {
+            background-color:#FE9B67 ;
+
+}
+
+.rodape { 
+    /* padding: 24px; */
+    /* background-color:#CD0232; */
+    text-align: center;
+}
+
+.linkcertificado {
+    text-decoration: none;
+    color: #CD0232;
+    border: 1px solid #CD0232;
+}
+
+.textoestudo { 
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    font-size: 19px;
+    font-family: "Montserrat", 'sans-serif';}
